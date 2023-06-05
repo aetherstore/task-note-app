@@ -173,7 +173,7 @@ function updateEditBook(judul, penulis, tahun, dibaca, id) {
 
 // Menghapus buku dari rak buku
 function removeBook(taskElement) {
-    const hapus = confirm('Yakin ingin menghapus buku?');
+    const hapus = confirm('Yakin ingin menghapus tugas?');
     if(hapus) {
 
         // Mencari index buku yang dipilih dan menghapus datanya
